@@ -1,0 +1,143 @@
+ul {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 15px;
+   
+}
+ul li a{
+    text-decoration: none;
+    color: grey;
+   
+}
+.logo ul li svg{
+    padding: 2px 6px;
+   color: gray;
+}
+
+    
+.logo ul li{
+    list-style: none;
+    display: flex;
+align-items: center;
+font-size: 16px;
+font-family:'Segoe UI';
+font-weight: 600;
+
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 20px; */
+    margin: 10px 42px;
+    align-items: center;
+   
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Segoe UI';
+}
+
+.heading{   
+    font-size: 50px;
+    font-weight: 400;
+    padding: 30px;
+    margin-top: 30px;
+    
+}
+.heading img{
+    padding: 0 10px;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.heading-2{
+text-align: center;
+font-size: 24px;
+width: 70vw;
+margin-bottom: 35px;
+}
+.button{
+    padding: 12px;
+    background-color:#00b6d1;
+    margin-bottom: 35px;
+    color: aliceblue;
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+}
+.second{
+    max-width: 80vw;
+    margin: auto;
+   
+}
+.para{
+    
+   display: flex;
+    font-family: 'Segoe UI';
+    
+   align-items: center;
+    gap: 12px;
+ padding: 18px 18px;
+
+}
+.big{
+font-size: 24px;
+ 
+}
+
+.small{
+    font-size: 16px;
+    font-weight: 400;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 12px;
+  
+
+}
+.item{
+    text-align: center;
+    padding: 18px 10px;
+    font-family: 'Segoe UI';
+    background-color:#eeebeb96;
+    margin: 12px;
+}
+.lang{
+    display: grid;
+margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.btn{
+  padding: 10px 12px;
+  margin: 12px 4px;
+  /* gap: 14px; */
+  color: rgb(247, 242, 235);
+border-radius: 4px;
+  font-weight: 800;
+  font-size: 12px;
+  cursor: pointer;
+
+}
+.blue{
+    background-color: #00b6d1;
+    
+}
+.green{
+    background-color: #5cb85c;
+}
+.lang2{
+    display: grid;
+    padding: 6px;
+    font-size: 12px;
+    font-weight: 400;
+}
